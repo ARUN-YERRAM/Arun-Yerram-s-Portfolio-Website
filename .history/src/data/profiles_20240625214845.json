@@ -1,0 +1,26 @@
+[
+    {
+      "username": "arun_2005",
+      "platform": "LeetCode",
+      "profileUrl": "https://leetcode.com/u/arun_2005/",
+      "avatarUrl": "..assets/codingprofiles/Leetcode.png"
+    },
+    {
+      "username": "arunyerram",
+      "platform": "GFG",
+      "profileUrl": "https://www.geeksforgeeks.org/user/arunyerram/",
+      "avatarUrl": "..assets/codingprofiles/GFG.png"
+    },
+    {
+        "username": "yarun2k05",
+        "platform": "Codechef",
+        "profileUrl": "https://www.codechef.com/users/yarun2k05",
+        "avatarUrl": "..assets/codingprofiles/codechef.png"
+    },
+    {
+        "username": "Arunyerram_12",
+        "platform": "Codeforces",
+        "profileUrl": "https://codeforces.com/profile/Arunyerram_12",
+        "avatarUrl": "..assets/codingprofiles/Codeforces.png"
+    }
+]

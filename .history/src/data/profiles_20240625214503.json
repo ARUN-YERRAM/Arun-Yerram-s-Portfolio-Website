@@ -1,0 +1,15 @@
+[
+    {
+      "username": "arun_2005",
+      "platform": "LeetCode",
+      "profileUrl": "https://leetcode.com/u/arun_2005/",
+      "avatarUrl": "..assets/codingprofiles/Leetcode.png"
+    },
+    {
+      "username": "jane_doe",
+      "platform": "GitLab",
+      "profileUrl": "https://gitlab.com/jane_doe",
+      "avatarUrl": "..assets/codingprofiles/.png"
+    }
+  ]
+  
