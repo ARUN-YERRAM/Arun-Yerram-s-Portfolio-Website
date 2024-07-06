@@ -1,0 +1,27 @@
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #04152d;
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+
+
+/* vars.css */
+:root {
+  --color-bg: #f5f5f5;
+  --color-text: #333;
+  --color-header-bg: #333;
+  --color-header-text: #fff;
+  --color-nav-bg: #444;
+  --color-nav-text: #fff;
+  --color-section-bg: #fff;
+  --color-footer-bg: #333;
+  --color-footer-text: #fff;
+  --color-description: #555;
+  --color-link: #007bff;
+}

@@ -1,0 +1,74 @@
+
+/* styles.css */
+@import '../vars.css';
+
+.App {
+  background: var(--color-fancy-bg-dark);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-light-bg); /* Light mode background */
+  color: var(--color-text); /* Text color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: var(--color-dark-bg); /* Dark mode background */
+  color: var(--color-text-light); /* Light text color */
+}
+
+/* Example component styling */
+.container {
+  background-color: var(--color-primary); /* Component background */
+  color: var(--color-text); /* Component text color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.container.dark-mode {
+  background-color: var(--color-secondary); /* Dark mode component background */
+  color: var(--color-text-light); /* Light text color */
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.darkMode {
+  background-color: var(--color-dark-bg); /* Dark mode background */
+  color: var(--color-text-light); /* Light text color */
+}
+
+.darkModeToggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: var(--color-primary); /* Button background color */
+  color: var(--color-text); /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.darkModeToggle:hover {
+  background-color: var(--color-primary-dark); /* Darker background on hover */
+}

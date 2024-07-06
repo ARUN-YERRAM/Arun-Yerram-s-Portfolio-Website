@@ -1,0 +1,21 @@
+/* vars.css */
+:root {
+  /* Light Theme */
+  --color-text: #000;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #fff; /* Light background */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #3e2723; /* Dark brown background */
+}

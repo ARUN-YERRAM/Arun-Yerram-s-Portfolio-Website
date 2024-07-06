@@ -1,0 +1,12 @@
+/* vars.css */
+:root {
+  /* Colours */
+  --color-text: #fff;
+  --color-primary: #576cbc;
+  --color-secondary: #19376d;
+  --color-dark: #0b2447;
+  --color-bg: #3e2723; /* Dark brown color */
+
+  /* Fonts */
+  --font-roboto: "Roboto";
+}

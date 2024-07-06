@@ -1,0 +1,14 @@
+/* vars.css */
+:root {
+  --color-bg: ;
+  --color-text: #e0e0e0;
+  --color-header-bg: #1e1e1e;
+  --color-header-text: #ffffff;
+  --color-nav-bg: #252525;
+  --color-nav-text: #ffffff;
+  --color-section-bg: #1e1e1e;
+  --color-footer-bg: #1e1e1e;
+  --color-footer-text: #ffffff;
+  --color-description: #aaaaaa;
+  --color-link: #4e8cff;
+}

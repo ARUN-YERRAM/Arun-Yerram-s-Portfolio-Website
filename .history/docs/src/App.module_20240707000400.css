@@ -1,0 +1,159 @@
+/* In a CSS file */
+@import '../vars.css';
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+/* App.css */
+
+/* Importing Variables */
+@import '../vars.css';
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* App Container */
+.App {
+  background-color: var(--color-bg);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background: var(--color-header-bg);
+  color: var(--color-header-text);
+  padding: 10px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: var(--color-nav-bg);
+  padding: 10px 0;
+}
+
+nav a {
+  color: var(--color-nav-text);
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+  margin-top: 20px;
+}
+
+section {
+  background: var(--color-section-bg);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styles */
+footer {
+  background: var(--color-footer-bg);
+  color: var(--color-footer-text);
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Specific Component Styles */
+.codingProfiles {
+  text-align: center;
+}
+
+.codingProfiles h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.codingProfiles p {
+  font-size: 1.2em;
+  color: var(--color-description);
+}
+
+.codingProfiles ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.codingProfiles li {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.codingProfiles a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.codingProfiles a:hover {
+  text-decoration: underline;
+}
+
+/* Animated Background */
+.animatedBackground {
+  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

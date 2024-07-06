@@ -1,0 +1,52 @@
+/* CodingProfiles.module.css */
+
+.container {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.animatedBackground {
+  background: linear-gradient(270deg, #ff8a00, #e52e71);
+  background-size: 400% 400%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
